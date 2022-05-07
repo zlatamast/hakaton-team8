@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Помощь детям</title>
     <link rel="stylesheet" href="./assets/style/mission.css">
 </head>
 
 <body>
+  
 <!--блок Наша миссия-->
 <section class="mission">
 <img class="mission_img" src="./assets/img/mission.png" alt="Иллюстрация миссии">
@@ -19,6 +21,101 @@
     <p class="mission_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae in deleniti, nam asperiores modi sunt eos iure fugiat repellendus reiciendis perspiciatis quis quidem. Vel dolore et nulla aperiam exercitationem!</p>
 </div>
 </section>
+ <div class="form">
+        <h2>Я готов помочь</h2>
+        <form class="send-help" method="post" action="#">
+            <div class="skill-options">
+                <label for="type-of-skill">Чему ты хочешь научить детей?</label>
+                <select name="type-of-skill" id="type-of-skill">
+                    <option value="drawing">Рисование</option>
+                    <option value="guitar">Гитара</option>
+                    <option value="chess">Шахматы</option>
+                    <option value="stitching">Вышивание</option>
+                    <option value="reading">Другое</option>
+                </select>
+            </div>
+            <div class="skill-level">
+                <p>Какой твой уровень навыка?</p>
+                <label><input type="radio" id="skill-level1" name="skill-level" value="pro">Профи</label>
+                <label><input type="radio" id="skill-level2" name="skill-level" value="amateur">Любитель</label>
+            </div>
+            <div class="meeting">
+                <p>Какое занятие ты хочешь провести?</p>
+                <label><input type="radio" id="skill-level1" name="meeting-type" value="mass">Мастер-класс</label>
+                <label><input type="radio" id="skill-level2" name="meeting-type" value="individual">Индивидуальное занятие</label>
+            </div>
+            <div class="full-name">
+                <label for="full-name">Имя:</label>
+                <input type="text" id="full-name" name="full-name">
+            </div>
+            <div class="phone">
+                <label for="tel">Номер телефона:</label>
+                <input type="text" id="tel" name="tel" pattern="+7[0-9]{10}" placeholder="+7 123 456 78 90">
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="comment">
+                <label for="comment">Дополнительный комментарий:</label>
+                <textarea id="comment" name="comment" placeholder="Поделись своими комментариями и идеями"></textarea>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="permission" id="permission">
+                <label for="permission">Я согласен на обработку личных данных</label>
+            </div>
+            <input type="submit" class="btn" value="Отправить заявку">
+        </form>
+    </div>
+
+    <div class="form">
+        <h2>Я готов помочь</h2>
+        <form class="send-help" method="post" action="#">
+            <div class="skill-options">
+                <label for="type-of-skill">Чему ты хочешь научить детей?</label>
+                <select name="type-of-skill" id="type-of-skill">
+                    <option value="drawing">Рисование</option>
+                    <option value="guitar">Гитара</option>
+                    <option value="chess">Шахматы</option>
+                    <option value="stitching">Вышивание</option>
+                    <option value="reading">Другое</option>
+                </select>
+            </div>
+            <div class="skill-level">
+                <p>Какой твой уровень навыка?</p>
+                <label><input type="radio" id="skill-level1" name="skill-level" value="pro">Профи</label>
+                <label><input type="radio" id="skill-level2" name="skill-level" value="amateur">Любитель</label>
+            </div>
+            <div class="meeting">
+                <p>Какое занятие ты хочешь провести?</p>
+                <label><input type="radio" id="skill-level1" name="meeting-type" value="mass">Мастер-класс</label>
+                <label><input type="radio" id="skill-level2" name="meeting-type" value="individual">Индивидуальное занятие</label>
+            </div>
+            <div class="full-name">
+                <label for="full-name">Имя:</label>
+                <input type="text" id="full-name" name="full-name">
+            </div>
+            <div class="phone">
+                <label for="tel">Номер телефона:</label>
+                <input type="text" id="tel" name="tel" pattern="+7[0-9]{10}" placeholder="+7 123 456 78 90">
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="comment">
+                <label for="comment">Дополнительный комментарий:</label>
+                <textarea id="comment" name="comment" placeholder="Поделись своими комментариями и идеями"></textarea>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="permission" id="permission">
+                <label for="permission">Я согласен на обработку личных данных</label>
+            </div>
+            <input type="submit" class="btn" value="Отправить заявку">
+        </form>
+    </div>
 </body>
 
 </html>
