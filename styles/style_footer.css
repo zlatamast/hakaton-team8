@@ -26,10 +26,17 @@ footer {
 
 .email_picture {
     margin-right: 3%;
+    margin-left: 3%;
 }
 
 .social_vk {
     margin-right: 3%;
+    margin-left: 3%;
+}
+
+.social_tg {
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 .email_address {
