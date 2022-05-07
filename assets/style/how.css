@@ -1,0 +1,50 @@
+.how{
+    margin: 125px 95px 125px 95px;
+}
+
+.how_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 85px;
+    color: #516A88;
+}
+
+.how_first{
+    display: flex;
+}
+
+.how_first-img {
+    width: 534px;
+    height: 351px;
+    margin-right: 115px;
+}
+
+.how_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #516A88;
+}
+
+.how_text-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    color: #516A88;
+}
+
+.how_second {
+    display: flex;
+}
+
+.how_second-img {
+    width: 603px;
+    height: 402px;
+    margin-left: 115px;
+}
