@@ -1,0 +1,30 @@
+.mission {
+    display: flex;
+    margin: 125px 95px 125px 95px;
+}
+
+.mission_img {
+    width: 534px;
+    height: 738px;
+    margin-right: 115px;
+}
+
+.mission_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 85px;
+    color: #516A88;
+    margin-top: -10px;
+    margin-left: 70px;
+}
+
+.mission_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #516A88;
+}
